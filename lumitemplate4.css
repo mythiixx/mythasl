@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.ld4-temp {
+ background: var(--ld4background);
+ border-radius: 20px;
+ box-shadow: 2px 2px 10px var(--ld4shadow);
+ position: relative;
+ min-height: 300px;
+ width: 580px;
+ margin: 0px auto;
+ padding: 0px 0px 40px 20px;
+ display: flex;
+ box-sizing: border-box;
+}
+.ld4-temp scrolltrack {
+ position: relative;
+ max-height: 9000px;
+ width: 300px;
+ display: block;
+}
+.ld4-temp:before {
+ content: "";
+background: url("https://i.ibb.co/hWyN4Qv/arches.png"), var(--ld4accent);
+ width: 50%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 20px 0px 0px 20px;
+}
+.ld4-temp ld4-inner {
+ padding: 35px 20px 20px 30px;
+ margin: 25px;
+ border-radius: 20px 0px 0px 20px;
+ background: var(--ld4background);
+ z-index: 2;
+ position: sticky;
+ display: block;
+ top: 45px;
+ left: 20px;
+ height: 360px;
+}
+.ld4-temp ld4-inner img {
+ width: 200px;
+ height: 200px;
+ border-radius: 20px;
+ object-fit: contain;
+ box-shadow: 2px 2px 10px var(--ld4shadow);
+ display: block;
+}
+.ld4-temp ld4-inner h1 {
+ font: 800 31.5px/90% playfair display!important;
+ text-transform: lowercase!important;
+ font-style: italic!important;
+ letter-spacing: -1px!important;
+ color: var(--ld4text)!important;
+ width: 200px;!important
+ text-align: left!important;
+}
+.ld4-temp ld4-inner h1 bb {
+ color: var(--ld4accent)!important;
+}
+.ld4-temp ld4-inner h2 a {
+ color: #FBFBFB!important;
+ text-decoration: none!important;
+ text-transform: lowercase!important;
+}
+.ld4-temp ld4-inner h2 {
+ font: 700 12px/150% raleway!important;
+ color: #FBFBFB!important;
+ background: var(--ld4accent)!important;
+ text-align: justify!important;
+ display: table!important;
+ padding: 4px 8px 4px 8px!important;
+ border-radius: 4px!important;
+ box-shadow: 2px 2px 10px var(--ld4shadow)!important;
+ text-transform: lowercase!important!important;
+}
+.ld4-temp ld4-textspace {
+ padding: 15px 15px 15px 0px;
+ margin: 45px 15px 15px 0px;
+ font: 400 12.5px/170% montserrat!important;
+ letter-spacing: .2px;
+ text-align: justify;
+ display: block;
+ color: var(--ld4text)!important;
+}
+.ld4-temp ld4-textspace bb {
+ color: var(--ld4accent)!important;
+ font: 700 14px/170% raleway!important;
+ letter-spacing: .5px!important;
+}
+.ld4-temp ld4-textspace bb ii {
+color: var(--ld4accent)!important;
+ font: 700 14px/170% raleway!important;
+font-style: italic!important;
+}
+.ld4-temp ld4-textspace uu {
+ background: var(--ld4accent)!important;
+ text-transform: uppercase!important;
+ white-space: nowrap;
+ color: #FBFBFB;
+ font: 600 11px/100% raleway!important;
+ text-decoration: none;
+ padding: 4px 8px 4px 8px;
+ border-radius: 4px;
+}
+
+.ld4-temp ld4-textspace a {
+ background: var(--ld4accent)!important;
+ text-transform: uppercase!important;
+ white-space: nowrap;
+ color: #FBFBFB;
+ font: 600 11px/100% raleway!important;
+ text-decoration: none;
+ padding: 4px 8px 4px 8px;
+ border-radius: 4px;
+}
+.ld4-temp ld4-textspace ii {
+ color: var(--ld4text);
+ font: 500 14px/170% raleway;
+ letter-spacing: .5px;
+ font-style: italic;
+}
+.lumi-logo {
+ position: relative;
+ margin: 0px auto;
+ text-align: center;
+ padding: 10px;
+ transform: rotate(-50deg)!important;
+ width: 0px;
+}
+.lumi-logo bb {
+ font: 700 11px/100% raleway!important;
+ text-transform: uppercase!important;
+ color: var(--pftext)!important;
+ display: block!important;
+ letter-spacing: 5px;
+ transform: rotate(40deg);
+ margin: -10px;
+}
+.lumi-logo i, .lumi-logo a {
+ color: var(--ld4text)!important;
+ text-decoration: none!important;
+}
+.lumi-logo i:nth-of-type(1) {
+ transform: rotate(90deg);
+ display: block;
+}
+.lumi-logo i:nth-of-type(2) {
+ transform: rotate(60deg) scale(0.9);
+ display: block;
+ margin: 0px -10px 10px 10px;
+}
