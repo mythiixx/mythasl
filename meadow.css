@@ -1,0 +1,218 @@
+/****** CODED BY MEADOW AKA PANDORA FOR MYTH ONLY. ******/
+
+.neptune-estate {
+  position:relative;
+  width:375px;
+  padding:50px 50px 25px 50px;
+  margin:25px auto;
+  border-radius:15px;
+  background:rgba(var(--white));
+  overflow:hidden;
+  z-index:1;
+  border-top:20px solid rgba(var(--c1), 0.75);
+  border-bottom:20px solid rgba(var(--c2), 0.75);
+  font-family:urbanist;
+  font-size:15px;
+  font-weight:500;
+  line-height:21px;
+  color:rgba(var(--black));
+  
+  --white:243,243,243;
+  --gray:194,194,194;
+  --black:72,72,72; 
+}
+
+.neptune-estate:before {
+  content:'';
+  display:block;
+  position:absolute;
+  top:0px; right:0px; bottom:0px; left:0px;
+  background:linear-gradient(to bottom, rgba(var(--white)), rgba(var(--c2), 0.15));
+  z-index:-1;
+}
+
+.ne-date {
+  position:absolute;
+  left:25px;
+  top:50px;
+  width:50px;
+  z-index:1;
+}
+
+.ne-date span {
+  display:block;
+  width:50px;
+  height:50px;
+  text-align:center;
+  font-size:50px;
+  color:rgba(var(--c2));
+  line-height:50px;
+  background: -webkit-linear-gradient(rgba(var(--c1)), rgba(var(--c2)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ne-date date {
+  display:block;
+  position:relative;
+  top:35px;
+  left:-12.5px;
+  height:25px;
+  width:75px;
+  line-height:50px;
+  background:rgba(var(--black));
+  background:linear-gradient(to left, rgba(var(--black)), rgba(var(--black), 0.75));
+  transform:rotate(-90deg);
+  color:rgba(var(--white), 0.85);
+  font-size:11.5px;
+  font-weight:500;
+  line-height:25px;
+  padding:2.5px;
+  border-radius:7.5px;
+  text-align:center;
+  overflow:hidden;
+  text-transform:uppercase;
+}
+
+.ne-date date b {
+  font-weight:700;
+  background: -webkit-linear-gradient(left, rgba(var(--c1)), rgba(var(--c2)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  display:inline-block;
+}
+
+.ne-body {
+  display:block;
+  position:relative;
+  z-index:1;
+  border-left:1px dotted rgba(var(--c1), 0.75);
+  padding:12.5px 0px 12.5px 25px;
+  margin-left:50px;
+  min-height:150px;
+  text-align:justify;
+}
+
+.ne-body b {
+  font-weight:700;
+  background: -webkit-linear-gradient(left, rgba(var(--c1)), rgba(var(--c2)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+.ne-body i {
+  opacity:0.75;
+}
+
+.ne-body b i { opacity:1!important; }
+
+.ne-body u {
+  text-decoration:none;
+  border-bottom:1px dotted rgba(var(--c2));
+  font-weight:600;
+}
+
+.ne-body a {
+  background:linear-gradient(to right, rgba(var(--black)), rgba(var(--black), 0.75));
+  text-decoration:none;
+  color:rgba(var(--white));
+  display:inline-block;
+  padding:1px 6px;
+  border-radius:5px;
+  text-transform:uppercase;
+  font-size:11px;
+  font-weight:700;
+}
+
+.ne-body hr {
+  border:none;
+  margin:25px;
+  border-bottom:1px dotted rgba(var(--c1));
+}
+
+.ne-body span.dice-roll {
+  font-size:12.5px;
+  font-weight:600;
+  padding-bottom:2px;
+  border-bottom:1px dotted rgba(var(--c2));
+}
+
+.ne-body span.dice-roll b {
+  text-transform:uppercase;
+}
+
+.ne-tag {
+  padding-top:25px;
+  text-align:right;
+  position:relative;
+  display:flex;
+  flex-wrap:wrap;
+  gap:7.5px;
+  justify-content:right;
+}
+
+.ne-tag:before {
+  content:'\e920';
+  font-family:starry;
+  display:block;
+  position:absolute;
+  right:-75px;
+  top:17px;
+  font-size:50px;
+  width:50px;
+  height:50px;
+  line-height:50px;
+  background: -webkit-linear-gradient(rgba(var(--c1)), rgba(var(--c2)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ne-tag a.user-tagged {
+  display:inline-block;
+    background:rgba(var(--black));
+  background:linear-gradient(to left, rgba(var(--black)), rgba(var(--black), 0.75));
+  color:rgba(var(--white), 0.85);
+  font-size:11px;
+  font-weight:500;
+  line-height:25px;
+  padding:2.5px 7.5px;
+  border-radius:7.5px;
+  text-align:center;
+  overflow:hidden;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+.ne-tag a.outfit {
+  background:linear-gradient(to bottom left, rgba(var(--c1)), rgba(var(--c2)));
+  width:25px;
+  height:25px;
+  padding:2.5px;
+  border-radius:5px;
+  text-align:center;
+  text-decoration:none;
+}
+
+.ne-tag a.outfit:before {
+  content:'\a10';
+  font-family:starry;
+  line-height:25px;
+  color:rgba(var(--white));
+  font-size:18px;
+}
+
+.ne-tag notes {
+  font-size:13px;
+  line-height:18px;
+  width:100%;
+  display:block;
+}
+
+.ne-tag notes a {
+  font-weight:700;
+  text-transform:uppercase;
+  display:inline-block;
+  font-size:11px;
+  text-decoration:none;
+  color:rgba(var(--c2));
+}
