@@ -44,8 +44,7 @@
   height: 200px;
   right: -90px;
   bottom: -75px;
-  filter: invert(62%) sepia(57%) saturate(293%) hue-rotate(300deg) brightness(102%) contrast(91%);
-}
+  }
 
 .flowers-tag {
   position:absolute;
