@@ -21,7 +21,7 @@
   margin: 30px auto;
   border-radius: 15px;
   background: rgba(244 244 244);
-  font-family: cormorant garamond;
+  font-family: "Cormorant Garamond", serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 21px;
@@ -37,6 +37,11 @@
   text-align: justify;
 }
 
+.flowers-body b {
+  color: rgba(var(--accent));
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+}
 
 .where-flowers-are img { 
   position: absolute;
