@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'mclove';
-  src:  url('fonts/mclove.eot?tl7d1k');
-  src:  url('fonts/mclove.eot?tl7d1k#iefix') format('embedded-opentype'),
-    url('fonts/mclove.ttf?tl7d1k') format('truetype'),
-    url('fonts/mclove.woff?tl7d1k') format('woff'),
-    url('fonts/mclove.svg?tl7d1k#mclove') format('svg');
+  src:  url('https://mythiixx.github.io/mythasl/mclove.eot');
+  src:  url('https://mythiixx.github.io/mythasl/mclove.eot') format('embedded-opentype'),
+    url('https://mythiixx.github.io/mythasl/mclove.ttf') format('truetype'),
+    url('https://mythiixx.github.io/mythasl/mclove.woff') format('woff'),
+    url('https://mythiixx.github.io/mythasl/mclove.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
