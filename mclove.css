@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'mclove';
+  src:  url('fonts/mclove.eot?tl7d1k');
+  src:  url('fonts/mclove.eot?tl7d1k#iefix') format('embedded-opentype'),
+    url('fonts/mclove.ttf?tl7d1k') format('truetype'),
+    url('fonts/mclove.woff?tl7d1k') format('woff'),
+    url('fonts/mclove.svg?tl7d1k#mclove') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mclove' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-buttercup:before {
+  content: "\e901";
+}
+.icon-asian-temple:before {
+  content: "\e902";
+}
+.icon-sakura:before {
+  content: "\e903";
+}
+.icon-koi-fish:before {
+  content: "\e904";
+}
+.icon-onigiri:before {
+  content: "\e905";
+}
+.icon-pottery:before {
+  content: "\e906";
+}
+.icon-rolling-pin:before {
+  content: "\e907";
+}
+.icon-lantern:before {
+  content: "\e908";
+}
+.icon-music:before {
+  content: "\e909";
+}
+.icon-bird:before {
+  content: "\e90a";
+}
+.icon-star:before {
+  content: "\e90b";
+}
+.icon-perfume:before {
+  content: "\e90c";
+}
+.icon-aromatherapy:before {
+  content: "\e90d";
+}
+.icon-bread:before {
+  content: "\e90e";
+}
+.icon-chinese-lantern:before {
+  content: "\e90f";
+}
+.icon-bamboo:before {
+  content: "\e910";
+}
+.icon-bonsai:before {
+  content: "\e911";
+}
+.icon-japanese-yen:before {
+  content: "\e912";
+}
+.icon-Rubik:before {
+  content: "\e913";
+}
+.icon-bunting:before {
+  content: "\e914";
+}
+.icon-christmas-ball:before {
+  content: "\e915";
+}
+.icon-christmas-ball1:before {
+  content: "\e916";
+}
+.icon-butterfly1:before {
+  content: "\e917";
+}
+.icon-candies:before {
+  content: "\e918";
+}
+.icon-gummy:before {
+  content: "\e919";
+}
+.icon-crystals:before {
+  content: "\e91a";
+}
+.icon-book:before {
+  content: "\e91b";
+}
+.icon-broom:before {
+  content: "\e91c";
+}
+.icon-wand:before {
+  content: "\e91d";
+}
+.icon-mortar:before {
+  content: "\e91e";
+}
+.icon-plant1:before {
+  content: "\e91f";
+}
+.icon-herbs:before {
+  content: "\e920";
+}
+.icon-plant:before {
+  content: "\e921";
+}
+.icon-electric-guitar:before {
+  content: "\e922";
+}
+.icon-butterfly:before {
+  content: "\e923";
+}
+.icon-waves:before {
+  content: "\e924";
+}
+.icon-flower:before {
+  content: "\e925";
+}
+.icon-oyster:before {
+  content: "\e900";
+}
