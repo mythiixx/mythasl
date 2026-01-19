@@ -52,6 +52,19 @@
   -webkit-text-fill-color: transparent;
 }
 
+.ne-date img {
+  display:block;
+  width:50px;
+  height:50px;
+  text-align:center;
+  font-size:50px;
+  color:rgba(var(--c2));
+  line-height:50px;
+  background: -webkit-linear-gradient(rgba(var(--c1)), rgba(var(--c2)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .ne-date date {
   display:block;
   position:relative;
