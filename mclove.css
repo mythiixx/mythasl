@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'mclove';
   src:  url('https://mythiixx.github.io/mythasl/mclove.eot');
-  src:  url('https://mythiixx.github.io/mythasl/mclove.eot') format('embedded-opentype'),
+  src:  url('https://mythiixx.github.io/mythasl/mclove.eot#iefix') format('embedded-opentype'),
     url('https://mythiixx.github.io/mythasl/mclove.ttf') format('truetype'),
     url('https://mythiixx.github.io/mythasl/mclove.woff') format('woff'),
     url('https://mythiixx.github.io/mythasl/mclove.svg') format('svg');
