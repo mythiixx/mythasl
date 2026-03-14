@@ -207,7 +207,7 @@
 }
 
 .ne-tag a.outfit:before {
-  content:'\a10';
+  content:'\e92b';
   font-family:starry;
   line-height:25px;
   color:rgba(var(--white));
