@@ -1,5 +1,3 @@
-/****** CODED BY MEADOW AKA PANDORA FOR MYTH ONLY. ******/
-
 .neptune-estate {
   position:relative;
   width:375px;
@@ -355,12 +353,10 @@
   display:flex;
   flex-wrap:wrap;
   gap:7.5px;
-  justify-content:right;
+  justify-content:left;
 }
 
 .ne-tag:before {
-  content:'\e920';
-  font-family:starry;
   display:block;
   position:absolute;
   right:-75px;
@@ -401,8 +397,8 @@
 }
 
 .ne-tag a.outfit:before {
-  content:'\e92b';
-  font-family:starry;
+  content:'\e90e';
+  font-family:mclove;
   line-height:25px;
   color:rgba(var(--white));
   font-size:18px;
