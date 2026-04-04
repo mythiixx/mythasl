@@ -113,8 +113,9 @@
   -webkit-text-fill-color: transparent;  
 }
 
-.ne-body bi {
+.ne-body ib {
   opacity:0.75;
+  font-style: italic;
 }
 
 .ne-body bb bi { opacity:1!important; }
