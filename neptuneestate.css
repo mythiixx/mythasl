@@ -389,7 +389,7 @@
   text-transform:uppercase;
 }
 
-.ne-tag a.outfit {
+.ne-tag bb.outfit {
   background:linear-gradient(to bottom left, rgba(var(--c1)), rgba(var(--c2)));
   width:25px;
   height:25px;
@@ -399,7 +399,7 @@
   text-decoration:none;
 }
 
-.ne-tag a.outfit:before {
+.ne-tag bb.outfit:before {
   content:'\e90e';
   font-family:mclove;
   line-height:25px;
