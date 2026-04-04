@@ -403,7 +403,7 @@
   content:'\e90e';
   font-family:mclove;
   line-height:25px;
-  color:rgba(var(--white));
+  color:rgba(var(--white))!important;
   font-size:18px;
 }
 
