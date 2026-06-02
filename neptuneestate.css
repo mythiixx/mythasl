@@ -17,9 +17,9 @@
   line-height:21px;
   color:rgba(var(--black));
   
-  --white2:36,36,36;
-  --gray2:194,194,194;
-  --black2:220,220,220; 
+  --white:36,36,36;
+  --gray:194,194,194;
+  --black:220,220,220; 
 }
 
 .neptune-estate:before {
